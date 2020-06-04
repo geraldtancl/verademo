@@ -1,0 +1,14 @@
+
+{
+    "IgnoredFlaws": [
+        {
+            "filename": "com/veracode/verademo/controller/BlabController.java",
+            "comments": "comments",
+            "cweid": 245,
+            "flawhash": 1934665430,
+            "causehash": 1046383670,
+            "prototypehash": 1378603639,
+            "procedurehash": 3606454117
+        }
+    ]
+}

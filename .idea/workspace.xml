@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce2d7503-10de-4126-b631-520ca36abd11" name="Default Changelist" comment="Update gitlab-ci.yml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="ProjectId" id="1Yv3YMqBihVLk3006DaEJ6x1GHX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="tools.proxy" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce2d7503-10de-4126-b631-520ca36abd11" name="Default Changelist" comment="" />
+      <created>1583809286200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583809286200</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Add gitlab-ci.yml">
+      <created>1583811232827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583811232827</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add gitlab-ci.yml">
+      <created>1583824194994</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583824194994</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add gitlab-ci.yml">
+      <created>1583825711171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583825711171</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update gitlab-ci.yml">
+      <created>1583826117060</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583826117060</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update gitlab-ci.yml">
+      <created>1583826220191</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583826220191</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update gitlab-ci.yml">
+      <created>1583826445325</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583826445325</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update gitlab-ci.yml">
+      <created>1583826729536</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583826729536</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update gitlab-ci.yml">
+      <created>1583828117454</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583828117454</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update gitlab-ci.yml">
+      <created>1583828580284</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583828580284</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update gitlab-ci.yml">
+      <created>1583829338331</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583829338331</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update gitlab-ci.yml">
+      <created>1588581480968</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588581480968</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update gitlab-ci.yml">
+      <created>1588581854429</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588581854429</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update gitlab-ci.yml">
+      <created>1588582594118</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588582594118</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update gitlab-ci.yml">
+      <created>1588747557787</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1588747557787</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update gitlab-ci.yml">
+      <created>1588747891208</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1588747891209</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update gitlab-ci.yml">
+      <created>1588751063107</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1588751063107</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add gitlab-ci.yml" />
+    <MESSAGE value="Update gitlab-ci.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update gitlab-ci.yml" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="162" key="CommitChangelistDialog2" timestamp="1590974034583">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="535" y="156" key="CommitChangelistDialog2/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1588751062840" />
+    <state x="499" y="162" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1590974034583" />
+    <state x="425" y="192" key="SettingsEditor" timestamp="1591159918713">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="425" y="192" key="SettingsEditor/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1588582253039" />
+    <state x="425" y="192" key="SettingsEditor/-1792.23.1792.1097/0.0.1920.1080@0.0.1920.1080" timestamp="1591159918713" />
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1583811635681" />
+    <state x="531" y="289" key="Vcs.Push.Dialog.v2" timestamp="1588751064526">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="531" y="289" key="Vcs.Push.Dialog.v2/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1588751064525" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1583829341536" />
+    <state x="600" y="358" key="git4idea.merge.GitMergeDialog" timestamp="1590974203257">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="600" y="358" key="git4idea.merge.GitMergeDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1590974203257" />
+    <state x="389" y="237" key="new project wizard" timestamp="1585292660645">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="389" y="237" key="new project wizard/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1585292660645" />
+  </component>
+</project>
