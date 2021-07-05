@@ -65,15 +65,15 @@ jobs:
         # version
         version: 'Github Workflow - ${{ github.run_id }}' # default is Scan from Github job: ${{ github.run_id }}
         # vid
-        vid: ${{ secrets.VERACODE_CI_API_ID }}
+        vid: ${{ secrets.VERACODE_API_ID }}
         # vkey
-        vkey: ${{ secrets.VERACODE_CI_API_KEY }}
+        vkey: ${{ secrets.VERACODE_API_KEY }}
         # true or flase
         createsandbox: # optional
         # name of the sandbox
         sandboxname: # optional
         # wait X minutes for the scan to complete
-        scantimeout: # optional
+        scantimeout: 30 # optional
         # modules to exclude from module selection
         exclude: # optional
         # modules to include in module selection
@@ -96,4 +96,47 @@ jobs:
         teams: # optional
         # teams
         toplevel: # optional
+        
+    Veracode_Get_Policy_Flaws:
+    runs-on: ubuntu-latest
+    container: 
+      image: veracode/api-signing:latest
+    steps:
+      # Note: this will only work up to about 500 flaws
+      #		due to Veracode results limiting
+      # See the get_flaws.sh script in the helpers directory
+      #		for a more elaborate method
+      - name: get policy flaws
+        run: |
+          cd /tmp
+          export VERACODE_API_KEY_ID=${{ secrets.VERACODE_API_ID }}
+          export VERACODE_API_KEY_SECRET=${{ secrets.VERACODE_API_KEY }}
+          guid=$(http --auth-type veracode_hmac GET "https://api.veracode.com/appsec/v1/applications?name=Verademo" | jq -r '._embedded.applications[0].guid') 
+          echo GUID: ${guid}
+          total_flaws=$(http --auth-type veracode_hmac GET "https://api.veracode.com/appsec/v2/applications/${guid}/findings?scan_type=STATIC&violates_policy=True" | jq -r '.page.total_elements')
+          echo TOTAL_FLAWS: ${total_flaws}
+          http --auth-type veracode_hmac GET "https://api.veracode.com/appsec/v2/applications/${guid}/findings?scan_type=STATIC&violates_policy=True&size=${total_flaws}" > policy_flaws.json
+
+      - name: save results file
+        uses: actions/upload-artifact@v2
+        with:
+          name: policy-flaws
+          path: /tmp/policy_flaws.json
+
+  # This step will import flaws from the step above
+  Veracode_Import_Policy_Flaws:
+    needs: Veracode_Get_Policy_Flaws
+    runs-on: ubuntu-latest
+    steps:
+      - name: get flaw file
+        uses: actions/download-artifact@v2
+        with:
+          name: policy-flaws
+          path: /tmp
+
+      - name: import flaws as issues
+        uses: buzzcode/veracode-flaws-to-issues@v1
+        with:
+          scan-results-json: '/tmp/policy_flaws.json'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
