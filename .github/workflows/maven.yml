@@ -31,6 +31,13 @@ jobs:
           .m2/repository
           target/
         key: build_artifacts
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v2.2.4
+      with:
+        # Artifact name
+        name: build_verademo
+        # A file, directory or wildcard pattern that describes what to upload
+        path: target/
       
   Veracode_SAST_Policy:
     needs: build
