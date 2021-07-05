@@ -41,7 +41,7 @@ jobs:
         # filepath
         filepath: target/verademo.war
         # version
-        version: # default is Scan from Github job: ${{ github.run_id }}
+        version: 'Github Workflow - ${{ github.run_id }}' # default is Scan from Github job: ${{ github.run_id }}
         # vid
         vid: ${{ env.VERACODE_CI_API_ID }}
         # vkey
