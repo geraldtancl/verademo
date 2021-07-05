@@ -24,6 +24,12 @@ jobs:
         distribution: 'adopt'
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Cache Artifacts
+      uses: actions/cache@v2.1.6
+      with:
+        paths:
+          .m2/repository
+          target/
       
   Veracode_SAST_Policy:
     needs: build
