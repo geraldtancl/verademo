@@ -43,9 +43,9 @@ jobs:
         # version
         version: # default is Scan from Github job: ${{ github.run_id }}
         # vid
-        vid: ${{ VERACODE_CI_API_ID }}
+        vid: ${{ env.VERACODE_CI_API_ID }}
         # vkey
-        vkey: ${{ VERACODE_CI_API_KEY }}
+        vkey: ${{ env.VERACODE_CI_API_KEY }}
         # true or flase
         createsandbox: # optional
         # name of the sandbox
