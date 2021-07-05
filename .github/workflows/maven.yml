@@ -97,8 +97,10 @@ jobs:
         # teams
         toplevel: # optional
         
-    Veracode_Get_Policy_Flaws:
+  Veracode_Get_Policy_Flaws:
     runs-on: ubuntu-latest
+    needs: Veracode_SAST_Policy
+    if: ${{ failure() }}
     container: 
       image: veracode/api-signing:latest
     steps:
@@ -126,6 +128,7 @@ jobs:
   # This step will import flaws from the step above
   Veracode_Import_Policy_Flaws:
     needs: Veracode_Get_Policy_Flaws
+    if: ${{ failure() }}
     runs-on: ubuntu-latest
     steps:
       - name: get flaw file
