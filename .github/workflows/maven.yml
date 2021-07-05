@@ -43,7 +43,8 @@ jobs:
     steps:
     - name: Download verademo
       uses: actions/download-artifact@v2.0.10
-      name: verademo
+      with:
+        name: verademo
     
     - name: Check target folder
       run: ls
