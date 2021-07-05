@@ -27,9 +27,10 @@ jobs:
     - name: Cache Artifacts
       uses: actions/cache@v2.1.6
       with:
-        paths:
+        path:
           .m2/repository
           target/
+        key: build_artifacts
       
   Veracode_SAST_Policy:
     needs: build
