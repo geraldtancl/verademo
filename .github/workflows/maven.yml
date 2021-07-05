@@ -101,6 +101,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: Veracode_SAST_Policy
     if: ${{ failure() }}
+    environment: 'Veracode API Credentials'
     container: 
       image: veracode/api-signing:latest
     steps:
