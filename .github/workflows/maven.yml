@@ -10,7 +10,7 @@ on:
     branches: [ master ]
 
 jobs:
-  environment: 'Veracode API Credentials'
+
   build:
 
     runs-on: ubuntu-latest
@@ -27,6 +27,7 @@ jobs:
       
   Veracode_SAST_Policy:
     needs: build
+    environment: 'Veracode API Credentials'
     runs-on: ubuntu-latest
     
     steps:
