@@ -40,7 +40,7 @@ jobs:
         # appname
         appname: Verademo # default is ${{ github.repository }}
         # createprofile
-        createprofile: # default is true
+        createprofile: false # default is true
         # filepath
         filepath: target/verademo.war
         # version
