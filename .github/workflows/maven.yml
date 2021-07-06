@@ -100,12 +100,12 @@ jobs:
   Veracode_Import_Flaws:
     runs-on: ubuntu-latest
     needs: Veracode_SAST_Policy
+    environment: 'Veracode API Credentials'
     if: ${{ failure() }}
 
     steps:
       - name: Get Flaws
         uses: julz0815/veracode_flaw_importer
-        environment: 'Veracode API Credentials'
         env: 
           VERACODE_API_KEY_ID: '${{ secrets.VERACODE_API_ID }}'
           VERACODE_API_KEY_SECRET: '${{ secrets.VERACODE_API_KEY }}'
