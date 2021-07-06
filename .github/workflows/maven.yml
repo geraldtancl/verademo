@@ -105,7 +105,7 @@ jobs:
 
     steps:
       - name: Get Flaws
-        uses: julz0815/veracode_flaw_importer
+        uses: julz0815/veracode_flaw_importer@master
         env: 
           VERACODE_API_KEY_ID: '${{ secrets.VERACODE_API_ID }}'
           VERACODE_API_KEY_SECRET: '${{ secrets.VERACODE_API_KEY }}'
