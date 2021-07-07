@@ -104,6 +104,8 @@ jobs:
     if: ${{ failure() }}
 
     steps:
+      - uses: actions/checkout@v2
+      
       - name: Get Flaws
         uses: julz0815/veracode_flaw_importer@main
         env: 
